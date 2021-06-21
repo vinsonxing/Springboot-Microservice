@@ -1,0 +1,7 @@
+
+resilience4j:
+  retry:
+    instances:
+      userService:
+        maxAttempts: 3
+        waitDuration: 11000
